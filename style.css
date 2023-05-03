@@ -224,3 +224,12 @@
 .naslov{
   color: green;
 }
+
+.active{
+  background-color: green;
+  
+}
+
+.active a{
+  color:#fefa99; 
+}
