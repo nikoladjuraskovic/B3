@@ -46,6 +46,9 @@
 }
 
 .heading {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -57,11 +60,14 @@
   background-color: #fefa99;
 }
 
-.content{
+.content {
   display: flex;
+  align-items: center;
+  width: 1150px;
+  margin: 0 auto;
 }
 
-#naslov{
+#naslov {
   color: green;
   font-size: 20pt;
   text-align: center;
@@ -83,29 +89,27 @@
   color: #fefa99;
 }
 
-
-.srbija{
-  background-image: url('srbija.jpg');
+.srbija {
+  background-image: url("srbija.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 810px;
+  height: 850px;
 }
 
-
-.images{
+.images {
   width: 50px;
   height: 30px;
 }
 
-.captions{
+.captions {
   color: green;
 }
 
-.figures{
+.figures {
   display: block;
 }
 
-#hungary{
+#hungary {
   color: green;
   width: 50px;
   height: 30px;
@@ -114,7 +118,7 @@
   position: relative;
 }
 
-#romania{
+#romania {
   color: green;
   width: 50px;
   height: 40px;
@@ -124,7 +128,7 @@
   position: relative;
 }
 
-#bulgaria{
+#bulgaria {
   color: green;
   width: 50px;
   height: 40px;
@@ -134,17 +138,17 @@
   top: 600px;
 }
 
-#macedonia{
+#macedonia {
   color: green;
   width: 50px;
   height: 40px;
   display: block;
   position: relative;
-  left: 730px;
-  top: 630px;
+  left: 700px;
+  top: 650px;
 }
 
-#albania{
+#albania {
   color: green;
   width: 50px;
   height: 40px;
@@ -154,7 +158,7 @@
   top: 600px;
 }
 
-#montenegro{
+#montenegro {
   color: green;
   width: 78px;
   height: 40px;
@@ -164,7 +168,7 @@
   top: 420px;
 }
 
-#croatia{
+#croatia {
   color: green;
   width: 50px;
   height: 40px;
@@ -175,9 +179,9 @@
 }
 
 /*TODO: naziv Bosna i Hercegovina da bude u jednom redu*/
-#bih{
+#bih {
   color: green;
-  width: 50px;  
+  width: 50px;
   height: 40px;
   display: block;
   position: relative;
@@ -185,9 +189,9 @@
   top: 150px;
 }
 
-#serbia{
+#serbia {
   color: green;
-  width: 50px;  
+  width: 50px;
   height: 40px;
   display: block;
   position: relative;
@@ -195,41 +199,35 @@
   top: 100px;
 }
 
-
-
-.flags{
+.flags {
   width: 90%;
   height: 80%;
 }
 
-#geografija{
+#geografija {
   width: 50px;
   margin: 0px;
   color: green;
   text-shadow: rgb(28, 27, 24) 1px 0 10px;
-  position: relative;
+  /* position: relative; */
   left: 500px;
   top: 110px;
   font-size: 40pt;
 }
 
-
-#prozor{
+#prozor {
   background-color: #fefa99;
   text-align: center;
-
 }
 
-
-.naslov{
+.naslov {
   color: green;
 }
 
-.active{
+.active {
   background-color: green;
-  
 }
 
-.active a{
-  color:#fefa99; 
+.active a {
+  color: #fefa99;
 }
