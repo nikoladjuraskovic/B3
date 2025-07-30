@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(254, 250, 152);
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    font-weight: 500;
+    color: rgb(71, 127, 45);   
+}
+
+nav {
+    background-color: rgb(195, 254, 169);
+    color: rgb(71, 127, 45);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li {
+    padding: 20px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(71, 127, 45);
+}
+
+.trenutna {
+    background-color: rgb(71, 127, 45);
+}
+
+.trenutna > a {
+    color:rgb(254, 250, 152);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(71, 127, 45);
+    margin: 20px;
+    font-weight: 500;
+}
+
+.container {
+    margin: 0 auto;
+    background: url("Slike/srbija.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 80vh;
+    position: relative;
+    
+}
+
+figure {
+    width: 60px;
+    height: 40px;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+}
+
+figcaption {
+    color: rgb(71, 127, 45);
+}
+
+#albanija {
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+}
+
+#hrvatska {
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+#madjarska {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+#makedonija {
+    position: absolute;
+    bottom: 100px;
+    right: 230px;
+}
+
+#crna_gora {
+    position: absolute;
+    bottom: 220px;
+    left: 150px;
+}
+
+#srbija {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+#bih {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+
+#bugarska {
+    position: absolute;
+    bottom: 150px;
+    right: 80px;
+}
+
+#rumunija {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+footer {
+    background-color: rgb(71, 127, 45);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(254, 250, 152);
+    padding: 20px;
+}
+
+
+.geografija {
+    position: absolute;
+    left: 400px;
+}
+
+.geografija span {
+    font-size: 50px;
+    color: rgb(71, 127, 45);
+    text-shadow: 1px 3px 5px black;
+    line-height: 70px;
+}
+
+/*prozor stilovi*/
+#naslov {
+    text-align: center;
+    color: rgb(71, 127, 45);
+}
+
+.opis {   
+    text-align: center;
+}
